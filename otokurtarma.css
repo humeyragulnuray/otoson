@@ -81,63 +81,6 @@ header {
 
 
 
-/* Mobil Cihazlar İçin Responsive Tasarım */
-@media screen and (max-width: 768px) {
-    /* Header Düzeni */
-    .header-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .logo {
-        font-size: 24px;
-    }
-
-    .contact {
-        margin-top: 5px;
-        font-size: 16px;
-    }
-
-    /* Navbar Düzeni */
-    .navbar ul {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .navbar ul li {
-        margin: 5px 0;
-    }
-
-    .navbar ul li a {
-        font-size: 14px;
-    }
-
-    /* Genel Elemanların Boyutları */
-    .subtitle {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    /* Daha Küçük Ekranlar İçin */
-    .logo {
-        font-size: 20px;
-    }
-
-    .contact {
-        font-size: 14px;
-    }
-
-    .navbar ul li a {
-        font-size: 12px;
-    }
-
-    .subtitle {
-        font-size: 14px;
-    }
-}
-
 
 /* Hero */
 #hero {
